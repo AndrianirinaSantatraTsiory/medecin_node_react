@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  color: rgb(17, 19, 17);
+}
+
+.navbar{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+ .basTableau{
+  max-width: 800px;
+  display: flex;
+  padding: 30px;
+  margin: 0 auto;
+  background: #f1356d;
+ }
+
+.navbar h1 {
+  color: rgb(128, 0, 0);
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.search {
+  max-width: 800px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: #d84646;
+}
+
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Ajouter nouveau médecin */
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input{
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.medecin-preview .modifier{
+  background: #35a6f1;
+    color: #fff;
+    border: 0;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.medecin-preview .supprimer {
+  background: #f13535;
+  color: #fff;
+  border: 0;
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.table{
+  width: 100%;
+}
+.table thead{
+  background: #f1356d;
+  text-align: center;
+}
+.table td{
+  text-align: center;
+  padding: 5px;
+}
+
+.search input{
+  width: 20%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.search .btnSearch{
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}

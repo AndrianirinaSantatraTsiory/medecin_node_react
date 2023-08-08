@@ -1,0 +1,25 @@
+{
+    "medecins": [
+        {
+            "numed": 3,
+            "nom": "Santax",
+            "Nombre_de_jours": 10,
+            "taux": 2000.5,
+            "prestation": 20005
+        },
+        {
+            "numed": 2,
+            "nom": "Tsiory",
+            "Nombre_de_jours": 20,
+            "taux": 3000.6,
+            "prestation": 60012
+        },
+        {
+            "numed": 4,
+            "nom": "Santatry",
+            "Nombre_de_jours": 10,
+            "taux": 2000.5,
+            "prestation": 20005
+        }
+    ]
+}
